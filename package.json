@@ -1,0 +1,27 @@
+{
+  "name": "@jgjp/fire",
+  "version": "1.0.0",
+  "description": "Execute logic in a promise-like wrapper",
+  "main": "./index.js",
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts"
+  ],
+  "exports": {
+    ".": [
+      {
+        "import": "./index.mjs",
+        "require": "./index.js",
+        "default": "./index.js"
+      },
+      "./index.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JGJP/fire.git"
+  },
+  "author": "J Garcia",
+  "license": "MIT"
+}
